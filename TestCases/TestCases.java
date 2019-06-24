@@ -26,4 +26,30 @@ public class TestCases {
         int actual=weeks.solution(Y,A,B,W);
         Assert.assertEquals(expected,actual);
     }
+
+    @Test
+    public void Testcase3(){
+        Weeks weeks=new Weeks();
+        int Y=2014;
+        //Proper name for month should be given
+        String B="Aprl";
+        String A="May";
+        String W="Wednesday";
+        int expected=-1;
+        int actual=weeks.solution(Y,A,B,W);
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void Testcase4(){
+        Weeks weeks=new Weeks();
+        int Y=2016;
+        //for leap years
+        String A="April";
+        String B="May";
+        String W="Wednesday";
+        int expected=8;
+        int actual=weeks.solution(Y,A,B,W);
+        Assert.assertEquals(expected,actual);
+    }
 }
