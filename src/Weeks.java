@@ -1,3 +1,4 @@
+import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.util.Date;
@@ -16,20 +17,7 @@ class Weeks
     int getMonthNumber(String monthName) {
         return Month.valueOf(monthName.toUpperCase()).getValue();
     }
-
-    /**
-     *
-     * @param date1 startdate of vacation
-     * @param date2 enddate of vacation
-     * @return weeks between startdate and end date
-     */
-
-    int weeksInBetween(Date date1, Date date2){
-        int daysInBetween = (int)(TimeUnit.DAYS.convert(date1.getTime()-date2.getTime(), TimeUnit.MILLISECONDS));
-        int weeksInBetween=(daysInBetween+1)/7;
-        return weeksInBetween;
-    }
-
+    
     /**
      *
      * @param Y Year in which john goes to vacation
@@ -64,11 +52,9 @@ class Weeks
         try{
             LocalDate dateOfFirstMonday=getFirstMonday(Y,A);
             LocalDate dateOfLastSunday=getLastSunday(Y,B);
-            //Converting LocalDate to Date as timeunit works only on dates
-            Date d1=java.sql.Date.valueOf(dateOfLastSunday);
-            Date d2=java.sql.Date.valueOf(dateOfFirstMonday);
-            int WeeksInBetween=weeksInBetween(d1,d2);
-            return WeeksInBetween;
+            //number of days between first monday of month john goes and last sunday of month john comes
+            int noOfDaysBetween = (int) ChronoUnit.DAYS.between(dateOfFirstMonday, dateOfLastSunday);
+            return (noOfDaysBetween+1)/7;
         }
 
          catch (IllegalArgumentException E){

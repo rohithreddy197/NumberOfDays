@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47669b8-ea66-4282-9e72-ba3f0e16f790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TestCases/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Weeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weeks.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Weeks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="-609">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCases/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="720">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Weeks.java" />
         <option value="$PROJECT_DIR$/TestCases/TestCases.java" />
+        <option value="$PROJECT_DIR$/src/Weeks.java" />
       </list>
     </option>
   </component>
@@ -112,6 +112,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -179,10 +180,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestCases.Testcase4" />
-        <item itemvalue="Application.Weeks" />
         <item itemvalue="JUnit.TestCases.Testcase3" />
         <item itemvalue="JUnit.TestCases.TestCase2" />
         <item itemvalue="JUnit.TestCases.TestCase1" />
+        <item itemvalue="Application.Weeks" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +218,12 @@
     </history-entry>
     <history-entry file="TestCases_Testcase3 - 2019.06.24 at 18h 13m 40s.xml">
       <configuration name="TestCases.Testcase3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_Testcase4 - 2019.06.24 at 18h 43m 16s.xml">
+      <configuration name="TestCases.Testcase4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_Testcase4 - 2019.06.24 at 18h 43m 40s.xml">
+      <configuration name="TestCases.Testcase4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -254,8 +261,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Weeks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="-609">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#421#422#0" expanded="true" />
@@ -266,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="720">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
