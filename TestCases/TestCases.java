@@ -47,8 +47,21 @@ public class TestCases {
         //for leap years
         String A="April";
         String B="May";
-        String W="Wednesday";
+        String W="Friday";
         int expected=8;
+        int actual=weeks.solution(Y,A,B,W);
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void Testcase5(){
+        Weeks weeks=new Weeks();
+        int Y=2014;
+        //for 5 month period
+        String A="January";
+        String B="July";
+        String W="Wednesday";
+        int expected=29;
         int actual=weeks.solution(Y,A,B,W);
         Assert.assertEquals(expected,actual);
     }

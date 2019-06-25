@@ -17,7 +17,7 @@ class Weeks
     int getMonthNumber(String monthName) {
         return Month.valueOf(monthName.toUpperCase()).getValue();
     }
-    
+
     /**
      *
      * @param Y Year in which john goes to vacation

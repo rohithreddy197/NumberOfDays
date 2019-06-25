@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b47669b8-ea66-4282-9e72-ba3f0e16f790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Weeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weeks.java" afterDir="false" />
-    </list>
+    <list default="true" id="b47669b8-ea66-4282-9e72-ba3f0e16f790" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Weeks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="-519">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -31,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
@@ -129,20 +127,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCases.Testcase4">
+  <component name="RunManager" selected="JUnit.TestCases.Testcase5">
     <configuration name="Weeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Weeks" />
       <module name="Weeks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCases.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Weeks" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="TestCase1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,13 +165,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCases.Testcase5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Weeks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCases" />
+      <option name="METHOD_NAME" value="Testcase5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCases.Testcase5" />
+        <item itemvalue="Application.Weeks" />
         <item itemvalue="JUnit.TestCases.Testcase4" />
         <item itemvalue="JUnit.TestCases.Testcase3" />
         <item itemvalue="JUnit.TestCases.TestCase2" />
-        <item itemvalue="JUnit.TestCases.TestCase1" />
-        <item itemvalue="Application.Weeks" />
       </list>
     </recent_temporary>
   </component>
@@ -201,12 +199,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCases_TestCase1 - 2019.06.24 at 17h 57m 45s.xml">
-      <configuration name="TestCases.TestCase1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_TestCase2 - 2019.06.24 at 17h 58m 37s.xml">
-      <configuration name="TestCases.TestCase2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCases_Testcase3 - 2019.06.24 at 18h 12m 28s.xml">
       <configuration name="TestCases.Testcase3" configurationId="JUnit" />
     </history-entry>
@@ -223,6 +215,18 @@
       <configuration name="TestCases.Testcase4" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestCases_Testcase4 - 2019.06.24 at 18h 43m 40s.xml">
+      <configuration name="TestCases.Testcase4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_TestCase1 - 2019.06.24 at 18h 52m 20s.xml">
+      <configuration name="TestCases.TestCase1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_TestCase2 - 2019.06.24 at 18h 52m 30s.xml">
+      <configuration name="TestCases.TestCase2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_Testcase3 - 2019.06.24 at 18h 52m 36s.xml">
+      <configuration name="TestCases.Testcase3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_Testcase4 - 2019.06.24 at 18h 52m 40s.xml">
       <configuration name="TestCases.Testcase4" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -259,24 +263,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Weeks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weeks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
           </folding>
         </state>
       </provider>
