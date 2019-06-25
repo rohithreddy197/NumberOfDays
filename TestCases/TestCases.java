@@ -57,7 +57,7 @@ public class TestCases {
     public void Testcase5(){
         Weeks weeks=new Weeks();
         int Y=2014;
-        //for 5 month period
+        //for 7 month period
         String A="January";
         String B="July";
         String W="Wednesday";

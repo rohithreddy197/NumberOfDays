@@ -1,7 +1,6 @@
 import java.time.temporal.ChronoUnit;
+import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
-import java.util.Date;
 import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
 import java.time.DayOfWeek;
@@ -9,15 +8,6 @@ import java.time.Month;
 
 class Weeks
 {
-    /**
-     *
-     * @param monthName: Name of the month
-     * @return Month name converted into capitals
-     */
-    int getMonthNumber(String monthName) {
-        return Month.valueOf(monthName.toUpperCase()).getValue();
-    }
-
     /**
      *
      * @param Y Year in which john goes to vacation
@@ -64,11 +54,16 @@ class Weeks
     }
 
     public static void main (String[] args) throws java.lang.Exception
-    {
+    {   int Y=2001;
         Weeks weeks=new Weeks();
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the year in which John goes to vacation");
-        int Y=sc.nextInt();
+        try{
+            System.out.println("Enter the year in which John goes to vacation");
+            Y=sc.nextInt();
+        }
+        catch (InputMismatchException E){
+            System.out.println("please enter valid year. Year 2001 is being considered by default");
+        }
         sc.nextLine();
         System.out.println("Enter the month name in which John goes to vacation");
         String A=sc.nextLine();
